@@ -1,0 +1,29 @@
+
+server:
+  port: 8080
+
+
+spring:
+  application:
+    name: learnSpringAI
+  ai:
+    model:
+      chat: deepseek
+
+#    openai:
+#      api-key: ${OPENAI_API_KEY}
+#      base-url: https://api.openai.com
+#      chat:
+#        options:
+#          model: gpt-4o-mini
+#          temperature: 0.7
+#          max-tokens: 2000
+
+    deepseek:
+      api-key: sk-991f5a26f18c4fdd95fa11cd74c3e128
+      base-url: https://api.deepseek.com
+      chat:
+        options:
+          model: deepseek-v4-flash
+          temperature: 0.7
+          max-tokens: 2000
